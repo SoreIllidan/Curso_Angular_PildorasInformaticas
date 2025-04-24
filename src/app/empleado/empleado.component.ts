@@ -9,10 +9,11 @@ import { Component, OnInit } from '@angular/core';
 
 export class EmpleadoComponent implements OnInit {
 
-  nombre: string = "Juan";
-  apellido: string = "Pérez";
-  edad: number = 30;
-  empresa: string = "Google";
+  nombre = "Juan";
+  apellido = "Pérez";
+  edad = 16;
+  //empresa = "Google";
+
 
   constructor() { }
 
